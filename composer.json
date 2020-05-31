@@ -11,19 +11,19 @@
     ],
     "require": {
         "php": "^7.2.5",
-        "illuminate/contracts": "^5.8|^6.0|^7.0",
-        "illuminate/support": "^5.8|^6.0|^7.0",
+        "illuminate/contracts": "^7.0",
+        "illuminate/support": "^7.0",
         "graham-campbell/manager": "^4.0",
-        "vimeo/vimeo-api": "^3.0.3"
+        "psalm/plugin-laravel": "^1.2",
+        "vipertecpro/vimeo-api": "^1.0"
     },
     "require-dev": {
-        "laravel/framework": "^5.8|^6.0|^7.0",
+        "laravel/framework": "^7.0",
         "graham-campbell/analyzer": "^2.0",
         "graham-campbell/testbench": "^5.2",
         "mockery/mockery": "^1.3.1",
         "phpunit/phpunit": "^8.4|^9.0",
-        "psalm/plugin-laravel": "^0.4",
-        "laravel/lumen-framework": "^5.8|^6.0|^7.0",
+        "laravel/lumen-framework": "^7.0",
         "vimeo/psalm": "^3.1"
     },
     "autoload": {
